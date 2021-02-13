@@ -1,0 +1,44 @@
+.navContainer {
+  max-height: "70px";
+  background-color: "#d5b352";
+  padding-left: "10%";
+  padding-right: "10%";
+  border-bottom-color: "#0a0e27";
+  border-bottom-width: 4;
+  border-block-end-style: "solid";
+}
+
+/* image css */
+.imageContainer {
+  padding-right: 5;
+}
+.imgLogo {
+  height: "50px";
+  width: "50px";
+}
+
+/* divider css */
+.dividerContainer {
+  padding-right: 13;
+}
+.divider {
+  color: "#0a0e27";
+  background-color: "#0a0e27";
+  height: 33;
+  width: 2;
+  border-color: "#0a0e27";
+}
+
+/* Brand Name css */
+.brandName {
+  font-size: 40;
+  font-weight: 800;
+  color: "#0a0e27";
+}
+
+/* Sign In css */
+.SignInText {
+  font-size: 19;
+  font-weight: 700;
+  color: "#0a0e27";
+}
