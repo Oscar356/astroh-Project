@@ -1,44 +1,69 @@
 .navContainer {
-  max-height: "70px";
-  background-color: "#d5b352";
-  padding-left: "10%";
-  padding-right: "10%";
-  border-bottom-color: "#0a0e27";
-  border-bottom-width: 4;
-  border-block-end-style: "solid";
+  max-height: 70px;
+  background-color: #d5b352;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-bottom-color: #0a0e27;
+  border-bottom-width: 4px;
+  border-block-end-style: solid;
 }
+
+/* NavBar Products */
+.productLinks {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: 70%;
+  justify-content: center;
+  display: flex;
+  
+}
+.productLinks li {
+  /* padding-right: 3%;
+  padding-left: 3%;
+  display: inline-block; */
+  list-style-type: none;
+  font-weight: 700;
+  color: #0a0e27;
+}
+.listLink {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+
 
 /* image css */
 .imageContainer {
-  padding-right: 5;
+  padding-right: 5px;
 }
 .imgLogo {
-  height: "50px";
-  width: "50px";
+  height: 50px;
+  width: 50px;
 }
 
 /* divider css */
 .dividerContainer {
-  padding-right: 13;
+  padding-right: 13px;
 }
 .divider {
-  color: "#0a0e27";
-  background-color: "#0a0e27";
-  height: 33;
-  width: 2;
-  border-color: "#0a0e27";
+  color: #0a0e27;
+  background-color: #0a0e27;
+  height: 33px;
+  width: 2px;
+  border-color: #0a0e27;
 }
 
 /* Brand Name css */
 .brandName {
   font-size: 40;
   font-weight: 800;
-  color: "#0a0e27";
+  color: #0a0e27;
 }
 
 /* Sign In css */
+
 .SignInText {
-  font-size: 19;
+  font-size: 40;
   font-weight: 700;
-  color: "#0a0e27";
+  color: #0a0e27;
 }
