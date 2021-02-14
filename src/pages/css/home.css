@@ -1,0 +1,14 @@
+.homeContainer {
+  margin: auto;
+  width: 828px;
+}
+
+/* Give Away Css */
+.giveAwayContainer {
+    display: flex;
+    padding-top: 40px;
+}
+.giveawayImage {
+    float: right;
+    width: 428px;
+}
