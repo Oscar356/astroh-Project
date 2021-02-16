@@ -5,10 +5,13 @@
 
 /* Give Away Css */
 .giveAwayContainer {
-    display: flex;
-    padding-top: 40px;
+  /* display: flex; */
+  padding-top: 40px;
+}
+.giveawayTitle {
+  font-weight: 600;
 }
 .giveawayImage {
-    float: right;
-    width: 428px;
+  /* float: right; */
+  width: 428px;
 }

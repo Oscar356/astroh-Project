@@ -28,7 +28,9 @@ function Navbar({ isPageNotFound }) {
 
           <Nav.Toggle />
           <Nav.Collapse className="justify-content-end">
-            <div className="SignInText">Sign In</div>
+            <Link to="/accounts/login">
+              <div className="SignInText">Log In</div>
+            </Link>
           </Nav.Collapse>
         </Nav>
       ) : (
@@ -60,7 +62,9 @@ function Navbar({ isPageNotFound }) {
           </ul>
           <Nav.Toggle />
           <Nav.Collapse className="justify-content-end">
-            <div className="SignInText">Sign In</div>
+            <Link to="/accounts/login">
+              <div className="SignInText">Log In</div>
+            </Link>
           </Nav.Collapse>
         </Nav>
       )}
