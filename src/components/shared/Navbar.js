@@ -46,24 +46,24 @@ function Navbar({ isPageNotFound }) {
           <div className="dividerContainer">
             <hr className="divider" />
           </div>
-          <Nav.Brand className="brandName" href="/">
-            Astroh
+          <Nav.Brand>
+            <Link className="brandName" to="/">Astroh</Link>
           </Nav.Brand>
           <ul className="productLinks">
-            <Link className="listLink">
+            <Link to="/shop-tops" className="listLink">
               <li>Tops</li>
             </Link>
-            <Link className="listLink">
+            <Link to="/shop-hats" className="listLink">
               <li>Hats</li>
             </Link>
-            <Link className="listLink">
+            <Link to="/shop-accessories" className="listLink">
               <li>Accessories</li>
             </Link>
           </ul>
           <Nav.Toggle />
           <Nav.Collapse className="justify-content-end">
             <Link to="/accounts/login">
-              <div className="SignInText">Log In</div>
+              <div className="SignInText">Sign In</div>
             </Link>
           </Nav.Collapse>
         </Nav>

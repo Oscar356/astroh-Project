@@ -15,7 +15,7 @@ function LoginPage() {
             <input type="password" placeholder="password" />
             <button>login</button>
             <p class="message">
-              Not registered? <Link to="/accounts/emailsignup"><p className="linkForSwitch">Sign In</p></Link>
+              Not registered? <Link to="/accounts/emailsignup"><p className="linkForSwitch">Create an account</p></Link>
             </p>
           </form>
         </div>

@@ -1,12 +1,11 @@
 import React from "react";
-import Navbar from "../components/shared/Navbar";
 import { Link } from "react-router-dom";
 import "./css/not-found.css";
+import Layout from "../components/shared/Layout";
 
 function NotFoundPage() {
   return (
-    <>
-      <Navbar isPageNotFound={true} />
+    <Layout title="Page Not Found" isPageNotFound={true}>
       <div className="notFoundContainer">
         <h3>Sorry, this page isn't available.</h3>
         <div className="textDivs">
@@ -18,7 +17,7 @@ function NotFoundPage() {
           <div className="textDivs">Go back to Astroh.</div>
         </Link>
       </div>
-    </>
+    </Layout>
   );
 }
 

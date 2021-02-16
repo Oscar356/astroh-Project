@@ -54,15 +54,17 @@
 }
 
 /* Brand Name css */
-.brandName {
+.brandName, .brandName:hover {
   font-size: 40;
   font-weight: 800;
   color: #0a0e27;
+  text-decoration: none;
 }
 
 /* Sign In css */
 
 .SignInText {
+  
   font-size: 40;
   font-weight: 700;
   color: #0a0e27;
