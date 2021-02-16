@@ -18,14 +18,6 @@ function SignUpPage() {
             Already registered? <Link to="/accounts/login"><p className="linkForSwitch">Sign In</p></Link>
           </p>
         </form>
-        {/* <form class="login-form">
-          <input type="text" placeholder="username" />
-          <input type="password" placeholder="password" />
-          <button>login</button>
-          <p class="message">
-            Not registered? <p className="linkForSwitch">Sign In</p>
-          </p>
-        </form> */}
       </div>
     </div>
   </>
