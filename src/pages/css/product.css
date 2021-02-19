@@ -1,0 +1,28 @@
+.cardContainer {
+  text-align: center;
+  /* width: 50%; */
+  padding-top: 70px;
+}
+.pageTitle {
+    padding-right: 64%;
+  font-weight: 600;
+}
+.card {
+  border-style: none;
+  padding: 7px;
+  max-width: 17%;
+  height: 100%;
+  display: inline-block;
+}
+.productImage {
+  width: 100%;
+}
+.cardText,
+.cardText p {
+    padding-top: 4px;
+    font-weight: 600;
+  float: left;
+}
+.cardText {
+    padding-top: 10px;
+}
